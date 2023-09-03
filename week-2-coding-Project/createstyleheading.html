@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled Heading</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .styled-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: 3px 3px 0 red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(black, black);
+    background-size: 100% 100%, auto;
+    background-repeat: no-repeat;
+    background-origin: padding-box, border-box;
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+  <h1 class="styled-heading">LEARN TO CODE</h1>
+</body>
+</html>
